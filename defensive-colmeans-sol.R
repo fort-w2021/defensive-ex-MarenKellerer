@@ -31,3 +31,4 @@ col_means <- function(df, na.rm = FALSE) {
 }
 
 
+testthat::test_file("test-defensive-colmeans.R")

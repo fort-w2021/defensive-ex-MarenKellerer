@@ -33,6 +33,6 @@ count_them <- function(supposedly_a_count) {
 
 
 
-
+testthat::test_file("test-defensive-count.R")
 
 

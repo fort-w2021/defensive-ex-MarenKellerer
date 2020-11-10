@@ -1,9 +1,5 @@
-remotes::install_github("fabian-s/checklist")
-## solution to defensive-lag-ex ##
 
 library(checkmate)
-library(checklist)
-
 
 
 # modified lag funciton ---------------------------------------------------
@@ -33,6 +29,3 @@ lag <- function(x, n = 1L) {
 testthat::test_file("test-defensive-lag.R")
 
 
-checklist::checklist(
-  system.file("", package = "checklist")
-)
